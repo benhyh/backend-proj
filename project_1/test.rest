@@ -1,0 +1,19 @@
+### TEST GET / WEBSITE
+GET http://localhost:3000
+
+### TEST GET / DASHBOARD WEBSITE
+GET http://localhost:3000/dashboard
+
+### TEST GET / DATA ENDPOINT
+GET http://localhost:3000/api/data
+
+### DATA END POINT / USER DATA
+POST http://localhost:3000/api/data
+Content-Type: application/json
+
+{
+    "name": "gilgamesh"
+}
+
+### DELETE END POINT / USER DATA
+DELETE http://localhost:3000/api/data
